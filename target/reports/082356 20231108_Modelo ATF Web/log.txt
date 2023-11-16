@@ -1,0 +1,5 @@
+2023-11-08 08:23:56 INFO  Logger:41 - Automação inicializada 082356 20231108_Modelo ATF Web.
+2023-11-08 08:23:56 INFO  Logger:41 - web inicializado.
+2023-11-08 08:23:56 INFO  Logger:41 - Contexto da automação instanciado para o tipo Web
+2023-11-08 08:23:56 INFO  Logger:41 - inicio dos testes
+2023-11-08 08:24:01 INFO  Logger:41 - WebDriver CHROME local inicializado.

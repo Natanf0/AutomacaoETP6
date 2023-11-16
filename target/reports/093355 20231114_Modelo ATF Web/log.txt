@@ -1,0 +1,53 @@
+2023-11-14 09:33:55 INFO  Logger:41 - Automação inicializada 093355 20231114_Modelo ATF Web.
+2023-11-14 09:33:55 INFO  Logger:41 - web inicializado.
+2023-11-14 09:33:55 INFO  Logger:41 - Contexto da automação instanciado para o tipo Web
+2023-11-14 09:33:55 INFO  Logger:41 - inicio dos testes
+2023-11-14 09:33:57 INFO  Logger:41 - WebDriver CHROME local inicializado.
+2023-11-14 09:33:58 INFO  Logger:41 - Gerador de relatório inicializado.
+2023-11-14 09:33:58 INFO  Logger:41 - Cenário '093358 20231114' inicializado para 'Consultar'.'Consultar tipo de módulo'.
+2023-11-14 09:34:04 INFO  Logger:41 - Página http://fabteste/SIPLAN/login carregada após 5357 milissegundos
+2023-11-14 09:34:04 INFO  Logger:41 - Fim da execução do passo correspondente ao screenshot '093358 20231114_100[OK]'.
+2023-11-14 09:34:04 INFO  Logger:41 - A thread será pausada por 2000 milissegundos.
+2023-11-14 09:34:06 INFO  Logger:41 - Buscando elemento para a chave Login.Campo.Matricula
+2023-11-14 09:34:06 INFO  Logger:41 - O conteúdo do elemento foi limpo
+2023-11-14 09:34:06 INFO  Logger:41 - Elemento foi clicado
+2023-11-14 09:34:06 INFO  Logger:41 - O texto do elemento foi alterado para 'FC154341'.
+2023-11-14 09:34:06 INFO  Logger:41 - Buscando elemento para a chave Login.Campo.Senha
+2023-11-14 09:34:06 INFO  Logger:41 - O conteúdo do elemento foi limpo
+2023-11-14 09:34:07 INFO  Logger:41 - Elemento foi clicado
+2023-11-14 09:34:07 INFO  Logger:41 - O texto do elemento foi alterado para 'furnas41'.
+2023-11-14 09:34:07 INFO  Logger:41 - Buscando elemento para a chave Btn.Login
+2023-11-14 09:34:07 INFO  Logger:41 - Elemento foi clicado
+2023-11-14 09:34:07 INFO  Logger:41 - Fim da execução do passo correspondente ao screenshot '093358 20231114_200[OK]'.
+2023-11-14 09:34:07 INFO  Logger:41 - A thread será pausada por 2000 milissegundos.
+2023-11-14 09:34:10 INFO  Logger:41 - Página http://fabteste/SIPLAN/tipoModulo carregada após 859 milissegundos
+2023-11-14 09:34:10 INFO  Logger:41 - Fim da execução do passo correspondente ao screenshot '093358 20231114_300[OK]'.
+2023-11-14 09:34:11 INFO  Logger:41 - A thread será pausada por 4000 milissegundos.
+2023-11-14 09:34:15 INFO  Logger:41 - Buscando elemento para a chave Btn.Incluir
+2023-11-14 09:34:15 INFO  Logger:41 - Elemento foi clicado
+2023-11-14 09:34:15 INFO  Logger:41 - Fim da execução do passo correspondente ao screenshot '093358 20231114_400[OK]'.
+2023-11-14 09:34:15 INFO  Logger:41 - A thread será pausada por 2000 milissegundos.
+2023-11-14 09:34:17 INFO  Logger:41 - Buscando elemento para a chave Campo.TipoModulo
+2023-11-14 09:34:17 INFO  Logger:41 - O conteúdo do elemento foi limpo
+2023-11-14 09:34:17 INFO  Logger:41 - Elemento foi clicado
+2023-11-14 09:34:17 INFO  Logger:41 - O texto do elemento foi alterado para 'Modulo x3'.
+2023-11-14 09:34:17 INFO  Logger:41 - Fim da execução do passo correspondente ao screenshot '093358 20231114_500[OK]'.
+2023-11-14 09:34:17 INFO  Logger:41 - Buscando elemento para a chave Btn.Salvar
+2023-11-14 09:34:17 INFO  Logger:41 - Elemento foi clicado
+2023-11-14 09:34:17 INFO  Logger:41 - Fim da execução do passo correspondente ao screenshot '093358 20231114_600[OK]'.
+2023-11-14 09:34:18 INFO  Logger:41 - A thread será pausada por 4000 milissegundos.
+2023-11-14 09:34:22 INFO  Logger:41 - Buscando elemento para a chave Campo.Pesquisar
+2023-11-14 09:34:22 INFO  Logger:41 - O conteúdo do elemento foi limpo
+2023-11-14 09:34:22 INFO  Logger:41 - Elemento foi clicado
+2023-11-14 09:34:22 INFO  Logger:41 - O texto do elemento foi alterado para 'Modulo x3'.
+2023-11-14 09:34:22 INFO  Logger:41 - Buscando elemento para a chave Btn.Pesquisar
+2023-11-14 09:34:22 INFO  Logger:41 - Elemento foi clicado
+2023-11-14 09:34:22 INFO  Logger:41 - Fim da execução do passo correspondente ao screenshot '093358 20231114_700[OK]'.
+2023-11-14 09:34:22 INFO  Logger:41 - A thread será pausada por 4000 milissegundos.
+2023-11-14 09:34:26 INFO  Logger:41 - Buscando elemento para a chave Acao.Consultar
+2023-11-14 09:34:27 INFO  Logger:41 - Elemento foi clicado
+2023-11-14 09:34:27 INFO  Logger:41 - Fim da execução do passo correspondente ao screenshot '093358 20231114_800[OK]'.
+2023-11-14 09:34:27 INFO  Logger:41 - A thread será pausada por 4000 milissegundos.
+2023-11-14 09:36:09 INFO  Logger:41 - Buscando elemento para a chave Campo.TipoDeModulo.Consulta
+2023-11-14 09:36:49 INFO  Logger:41 - Atributo 'value' obtido: 'Modulo X3'
+2023-11-14 09:37:26 INFO  Logger:41 - Fim da execução do passo correspondente ao screenshot '093358 20231114_900[OK]'.

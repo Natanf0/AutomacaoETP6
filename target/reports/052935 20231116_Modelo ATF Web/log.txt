@@ -1,0 +1,19 @@
+2023-11-16 17:29:35 INFO  Logger:41 - Automação inicializada 052935 20231116_Modelo ATF Web.
+2023-11-16 17:29:35 INFO  Logger:41 - web inicializado.
+2023-11-16 17:29:35 INFO  Logger:41 - Contexto da automação instanciado para o tipo Web
+2023-11-16 17:29:35 INFO  Logger:41 - inicio dos testes
+2023-11-16 17:29:37 INFO  Logger:41 - WebDriver CHROME local inicializado.
+2023-11-16 17:29:38 INFO  Logger:41 - Gerador de relatório inicializado.
+2023-11-16 17:29:38 INFO  Logger:41 - Cenário '052938 20231116' inicializado para 'Incluir'.'Incluir Tipo de Módulo com dados válidos'.
+2023-11-16 17:29:38 INFO  Logger:41 - Página http://fabteste/SIPLAN/login carregada após 375 milissegundos
+2023-11-16 17:29:38 INFO  Logger:41 - Fim da execução do passo correspondente ao screenshot '052938 20231116_100[OK]'.
+2023-11-16 17:29:38 ERROR Logger:48 - Erro ao tirar o screenshot. Mensagem da exceção: . Mensagem da InnerException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.125)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-32SOBU5', ip: '10.3.1.220', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [147b12e476ce1aac30cbce2622110807, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.125, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\NATANF~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63836}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63836/devtoo..., se:cdpVersion: 119.0.6045.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 147b12e476ce1aac30cbce2622110807
+2023-11-16 17:29:38 INFO  Logger:41 - A thread será pausada por 4000 milissegundos.

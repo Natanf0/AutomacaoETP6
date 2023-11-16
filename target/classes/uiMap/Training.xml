@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<locators>
+    <entry key="Training.BasicAuth"             by="xpath"          value="//*[@href='/basic_auth']"/>
+    <entry key="Training.Checkboxes"            by="xpath"          value="//*[@href='/checkboxes']"/>
+    <entry key="Training.RadioButtons"          by="xpath"          value="//*[@href='/radios']"/>
+    <entry key="Training.Dropdown"              by="xpath"          value="//*[@href='/dropdown']"/>
+    <entry key="Training.Select2Umaopcao"       by="xpath"          value="//*[@href='/apps/select2/single.html']"/>
+    <entry key="Training.Login"                 by="xpath"          value="//*[@href='/login']"/>
+    <entry key="Training.Hovers"                by="xpath"          value="//*[@href='/hovers']"/>
+    <entry key="Training.AlertasemJavaScript"   by="xpath"          value="//*[@href='/javascript_alerts']"/>
+    <entry key="Training.Tabelas"               by="xpath"          value="//*[@href='/tables']"/>
+    <entry key="Training.UploaddeArquivos"      by="xpath"          value="//*[@href='/upload']"/>
+    <entry key="Training.IFrameBom"             by="xpath"          value="//*[@href='/nice_iframe']"/>
+
+    <entry key="Checkboxes.Form"            by="id"             value="checkboxes"/>
+
+    <entry key="RadioButtons.Form"          by="id"             value="radios"/>
+
+    <entry key="DropdownList.ComboBox"      by="class"          value="avenger-list"/>
+
+    <entry key="FormularioLogin.Usuario"    by="name"           value="username"/>
+    <entry key="FormularioLogin.Senha"      by="cssselector"    value="#passId"/>
+    <entry key="FormularioLogin.BtnLogin"   by="xpath"          value="//button[@class='radius btn-login']"/>
+    <entry key="FormularioLogin.AreaLogada" by="xpath"          value="//h2"/>
+    <entry key="FormularioLogin.MsgLogin"   by="xpath"          value="//div[@class='flash success']"/>
+
+    <entry key="Select2.BtnLigaDesliga"     by="xpath"          value="//button[@type='button']"/>
+    <entry key="Select2.ComboBox"           by="xpath"          value="//*[@class='select2 select2-container select2-container--default select2-container--disabled']"/>
+
+    <entry key="Hovers.HomemAranha"         by="xpath"          value="//img[@src='/img/avatars/marvel/4.jpg']"/>
+
+    <entry key="Alerts.Alerta"              by="class"          value="btn-success"/>
+    <entry key="Alerts.Confirma"            by="class"          value="btn-primary"/>
+    <entry key="Alerts.Prompt"              by="class"          value="btn-info"/>
+    <entry key="Alerts.Result"              by="id"             value="result"/>
+
+    <entry key="Tables.Atores"              by="id"             value="actors"/>
+
+    <entry key="Upload.File"                by="id"             value="file-upload"/>
+    <entry key="Upload.BtnFile"             by="id"             value="file-submit"/>
+    <entry key="Upload.FileUploaded"        by="xpath"          value="//div[@class='example']//h3"/>
+
+    <entry key="IFrameBom.Sobre"            by="xpath"          value="//a[@href='/about']"/>
+</locators>

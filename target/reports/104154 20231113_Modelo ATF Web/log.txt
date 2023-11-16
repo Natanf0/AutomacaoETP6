@@ -1,0 +1,4 @@
+2023-11-13 10:41:54 INFO  Logger:41 - Automação inicializada 104154 20231113_Modelo ATF Web.
+2023-11-13 10:41:54 INFO  Logger:41 - web inicializado.
+2023-11-13 10:41:54 INFO  Logger:41 - Contexto da automação instanciado para o tipo Web
+2023-11-13 10:41:54 INFO  Logger:41 - inicio dos testes

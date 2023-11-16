@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<locators>
+
+    <!--Tela de Cadastro-->
+    <entry key="Campo.TipoModulo" by="id" value = "nome"/>
+    <entry key="Btn.Salvar" by="xpath" value = "//button[normalize-space()='Salvar']"/>
+    <entry key="Msg.Critica.CampoObrig" by="class" value = "mensagemErro"/>
+
+    <entry key="Msg.Critica" by="xpath" value = "//*[@id='container']/div/div/div"/>
+
+    <!--Tela de Listagem-->
+    <entry key="Btn.Incluir" by="xpath" value = "//a[normalize-space()='Incluir Tipo de Módulo']"/>
+    <entry key="Msg.Sucesso" by="xpath" value = "//*[@id='container']/div/div[1]/div"/>
+    <entry key="Btn.Pesquisar" by="xpath" value = "//button[normalize-space()='Pesquisar']"/>
+    <entry key="Campo.Pesquisar" by="xpath" value = "//*[@id='container']/div/div[1]/form/div[2]/div[1]/div/div/input"/>
+    <entry key="Acao.Consultar" by="xpath" value = "//*[@id='table']/tbody/tr[1]/td[2]/a[1]"/>
+    <entry key="Acao.Alterar" by="xpath" value = "//*[@id='table']/tbody/tr[1]/td[2]/a[2]"/>
+    <entry key="Acao.Excluir" by="xpath" value = "//*[@id='table']/tbody/tr[1]/td[2]/a[3]"/>
+
+    <entry key="Titulo.Pagina.Listagem" by="xpath" value = "//*[@id='container']/div/div[2]/div/div/div[1]"/>
+
+
+    <!--Tela de Alteração-->
+    <entry key="Msg.Critica.CampoObrig" by="class" value = "mensagemErro"/>
+
+
+    <!--Tela de Consulta-->
+    <entry key="Campo.TipoDeModulo.Consulta" by="xpath" value = "//*[@id='container']/div/div/form/div[2]/div/div/input"/>
+
+    <!--Tela de Exclusão-->
+    <entry key="Btn.Excluir" by="xpath" value = "//button[normalize-space()='Excluir']"/>
+    <entry key="Btn.Confirma.Exclusao" by="xpath" value = "//*[@id='container']/div/div/form/div[3]/div/div/div/div[3]/button[2]"/>
+    <entry key="Btn.Cancelar.Exclusao" by="xpath" value = "//button[normalize-space()='Cancelar']"/>
+    <entry key="Titulo.Pagina.Exclusao" by="xpath" value = "//*[@id='container']/div/div/form/div[1]"/>
+
+    <!--Comuns-->
+    <entry key="Btn.Limpar" by="xpath" value = "//button[normalize-space()='Limpar']"/>
+    <entry key="Btn.Voltar" by="xpath" value = "//button[normalize-space()='Voltar']"/>
+
+</locators>

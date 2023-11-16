@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<locators>
+
+    <entry key="Login.Campo.Matricula"  by="xpath"  value="//*[@id='login-box']/form/div[1]/div/input"/>
+    <entry key="Login.Campo.Senha" by="xpath" value="//*[@id='login-box']/form/div[2]/div/input"/>
+    <entry key="Btn.Login" by="xpath" value="//*[@id='login-box']/form/input"/>
+
+
+
+    <entry key="Menu.Configuracao" by="xpath" value = "//li[normalize-space()='Configuração']"/>
+    <entry key="Menu.Config.TipoModulo" by="xpath" value = "//a[normalize-space()='Tipo de Módulo']"/>
+    <entry key="Menu.Config.SubTipoModulo" by="xpath" value = "//a[normalize-space()='Subtipo de Módulo']"/>
+
+
+
+</locators>

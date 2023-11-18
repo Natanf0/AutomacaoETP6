@@ -8,7 +8,7 @@ Funcionalidade: Alterar Tipo de Módulo
 
   Cenario: Consultar tipo de módulo
     E que eu acesse o sistema com o perfil 'Proprietario'
-    E que eu selecione a opcao 'Tipo de Módulo' no menu Configuração
+    E que eu selecione a opcao Tipo de Módulo no menu Configuração
     E que eu realize a inclusao previa e pesquise pelo tipo de módulo recem incluido
     E eu clicar na acao 'Alterar'
     Quando eu alterar o campo Tipo de Mdulo com 'Modulo TY22'

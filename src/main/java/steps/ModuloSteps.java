@@ -5,13 +5,13 @@ import io.cucumber.java.pt.E;
 import io.cucumber.java.pt.Então;
 import io.cucumber.java.pt.Quando;
 import org.junit.Assert;
-import pages.TipoModuloPage;
+import pages.ModuloPage;
 import web.singleton.WebSteps;
 
-public class TipoModuloSteps extends WebSteps<TipoModuloPage> {
+public class ModuloSteps extends WebSteps<ModuloPage> {
     @Dado("que eu acesse a tela de login do sistema")
     public void queEuAcesseATelaDeLoginDoSistema() {
-        setPage(TipoModuloPage.class);
+        setPage(ModuloPage.class);
         getPage().AbrePaginaLogin();
     }
 
@@ -22,12 +22,12 @@ public class TipoModuloSteps extends WebSteps<TipoModuloPage> {
 
     @E("que eu selecione a opcao Tipo de Módulo no menu Configuração")
     public void queEuSelecioneAOpcaoTipoDeMóduloNoMenuConfiguração() {
-        getPage().ClicarNoSubmenu();
+        getPage().ClicaNoSubmenuTipoModulo();
     }
 
     @E("que eu clique no botão Incluir Tipo de Módulo")
     public void queEuCliqueNoBotãoIncluirTipoDeMódulo() {
-        getPage().CLicaBtnIncluir();
+        getPage().ClicaBtnIncluirTipoModulo();
     }
 
     @E("que eu preencha o campo Tipo de Módulo com {string}")
@@ -43,7 +43,7 @@ public class TipoModuloSteps extends WebSteps<TipoModuloPage> {
 
     @Então("o sistema retorna a página anterior e exibe a mensagem de sucessso {string}")
     public void oSistemaRetornaAPáginaAnteriorEExibeAMensagemDeSucesssoTipoDeMóduloSalvoComSucesso(String msg) {
-        Assert.assertTrue(getPage().ValidaInclusao(msg));
+        Assert.assertTrue(getPage().ValidaMsgSucesso(msg));
     }
 
     @Quando("eu clicar no botão Limpar")
@@ -53,7 +53,7 @@ public class TipoModuloSteps extends WebSteps<TipoModuloPage> {
 
     @Então("o campo Tipo de Módulo será limpo")
     public void oCampoTipoDeMóduloSeráLimpo() {
-        Assert.assertTrue(getPage().ValidaCampoLimpo());
+        Assert.assertTrue(getPage().ValidaCampoTipoModuloLimpo());
     }
 
     @Quando("eu clicar no botão Voltar")
@@ -63,7 +63,7 @@ public class TipoModuloSteps extends WebSteps<TipoModuloPage> {
 
     @Então("o sistema retorna para a página anterior")
     public void oSistemaRetornaParaAPáginaAnterior() {
-        Assert.assertTrue(getPage().ValidaRetornoDaPagina());
+        Assert.assertTrue(getPage().ValidaRetornoDaPaginaTipoModulo());
 
     }
 
@@ -74,7 +74,7 @@ public class TipoModuloSteps extends WebSteps<TipoModuloPage> {
 
     @Então("o sistema exibe mensagem de crítica")
     public void oSistemaExibeMensagemDeCrítica() {
-        Assert.assertTrue(getPage().ValidaMsgCriticaCampoObrigatorio());
+        Assert.assertTrue(getPage().ValidaMsgCriticaCampoObrigatorioTipoModulo());
     }
 
     @E("que eu realize a inclusao previa e pesquise pelo tipo de módulo recem incluido")
@@ -83,17 +83,17 @@ public class TipoModuloSteps extends WebSteps<TipoModuloPage> {
     }
     @E("que eu realize a inclusao previa do tipo de modulo {string} e pesquise pelo tipo de módulo recem incluido")
     public void queEuRealizeAInclusaoPreviaDoTipoDeModuloModuloXAEPesquisePeloTipoDeMóduloRecemIncluido(String tipo_modulo) {
-        getPage().IncluiEPesquisaTipoDeModuloComValorPredefinido(tipo_modulo);   }
+        getPage().IncluiEPesquisaTipoDeModuloComValor(tipo_modulo);   }
 
     @Quando("eu clicar na acao {string}")
     public void euClicarNaAcaoConsultar(String acao) {
-        getPage().ClicarAcao(acao);
+        getPage().ClicaNaAcao(acao);
     }
 
 
     @Então("o sistema exibe a tela de consulta do tipo de módulo {string}")
     public void oSistemaExibeATelaDeConsultaDoTipoDeMóduloModuloX(String valor) {
-        Assert.assertTrue(getPage().ValidaConsulta(valor));
+        Assert.assertTrue(getPage().ValidaConsultaTipoModulo(valor));
     }
 
     @E("que eu clique no botão Excluir")
@@ -108,17 +108,17 @@ public class TipoModuloSteps extends WebSteps<TipoModuloPage> {
 
     @Então("o sistema permanece na página e exibe a mensagem de crítica {string}")
     public void oSistemaPermaneceNaPáginaEExibeAMensagemDeCríticaNãoFoiPossívelSalvarAlteraçõesPorqueEsteTipoDeMóduloJáEstáCadastrado(String msg_critica) {
-        Assert.assertTrue(getPage().ValidaMensagemCritica(msg_critica));
+        Assert.assertTrue(getPage().ValidaMsgCriticaTipoModuloDuplicado(msg_critica));
     }
 
     @E("que eu clique em cancelar")
     public void queEuCliqueEmCancelar() {
-        getPage().ClicaBtnCancelar();
+        getPage().ClicaBtnCancelarExclusao();
     }
 
     @Então("o sistema fecha a modal e permanece na pagina")
     public void oSistemaFechaAModalEPermaneceNaPagina() {
-        Assert.assertTrue(getPage().ValidaPermanecePagina());
+        Assert.assertTrue(getPage().ValidaCancelaExclusaoTipoModulo());
     }
 
     @Quando("eu alterar o campo Tipo de Mdulo com {string}")
@@ -128,22 +128,24 @@ public class TipoModuloSteps extends WebSteps<TipoModuloPage> {
 
 
 
-
-
-    // SUBTIPO DE MÓDULO
+    /*    SUBTIPO DE MÓDULO:      */
+    @E("que eu selecione a opcao Subtipo de Módulo no menu Configuração")
+    public void queEuSelecioneAOpcaoSubtipoDeMóduloNoMenuConfiguração() {
+        getPage().ClicaSubmenuSubtipoModulo();
+    }
 
     @E("que eu clique no botão Incluir Subtipo de Módulo")
     public void queEuCliqueNoBotãoIncluirSubtipoDeMódulo() {
-        getPage().ClicaBtnIncluirSUbtipo();
+        getPage().ClicaBtnIncluirSubtipoModulo();
     }
 
     @E("que eu selecione o campo Tipo de Módulo com {string}")
-    public void queEuSelecioneOCampoTipoDeMóduloComTeste(String tipo_modulo) {
+    public void queEuSelecioneOCampoTipoDeMóduloComManobra(String tipo_modulo) {
         getPage().SelecionaTipoModulo(tipo_modulo);
     }
 
     @E("que eu preencha o campo Sigla do Subtipo de Módulo com {string}")
-    public void queEuPreenchaOCampoSiglaDoSubtipoDeMóduloComDDAA(String sigla) {
+    public void queEuPreenchaOCampoSiglaDoSubtipoDeMóduloComDDNA(String sigla) {
         getPage().InsereSiglaSubtipo(sigla);
     }
 
@@ -151,6 +153,5 @@ public class TipoModuloSteps extends WebSteps<TipoModuloPage> {
     public void queEuPreenchaOCampoNomeDoSubtipoDeMóduloComNomeNovo(String nome) {
         getPage().InsereNomeSubtipo(nome);
     }
-
 
 }

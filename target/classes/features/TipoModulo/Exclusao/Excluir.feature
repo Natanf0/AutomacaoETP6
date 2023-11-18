@@ -8,7 +8,7 @@ Funcionalidade: Excluir Tipo de Módulo
 
   Cenario: Incluir Tipo de Módulo com dados válidos
     E que eu acesse o sistema com o perfil 'Proprietario'
-    E que eu selecione a opcao 'Tipo de Módulo' no menu Configuração
+    E que eu selecione a opcao Tipo de Módulo no menu Configuração
     E que eu realize a inclusao previa e pesquise pelo tipo de módulo recem incluido
     E eu clicar na acao 'Excluir'
     E que eu clique no botão Excluir

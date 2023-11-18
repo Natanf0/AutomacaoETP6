@@ -4,14 +4,8 @@ import web.WebPage;
 
 import java.util.Random;
 
-public class CommomMethods extends WebPage {
+public class CommomMethods {
 
-    public void AcessaSistemaComPerfil_(String perfil){
-        atf.sleep(4000);
-        atf.setText("Login.Campo.Matricula", CommomMethods.EscolhePerfil(perfil)[0]);
-        atf.setText("Login.Campo.Senha", CommomMethods.EscolhePerfil(perfil)[1]);
-        atf.click("Btn.Login");
-    }
     public static String[] EscolhePerfil(String perfil){
         String[] array = new String[2];
         String matricula="", senha="";
@@ -57,8 +51,4 @@ public class CommomMethods extends WebPage {
         return string;
     }
 
-    @Override
-    public void disposePage() {
-
-    }
 }

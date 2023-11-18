@@ -11,10 +11,10 @@ import web.Web;
 @CucumberOptions(
         plugin = {"pretty", "html:target/cucumber", "json:target/cucumber.json",
                 "cucumber.components.StepAtf", "cucumber.components.FeatureAtf"}
-        ,features="src/main/resources/features/TipoModulo/Alteração/Voltar.feature"
+        ,features="src/main/resources/features/TipoModulo/Inclusao/Incluir.feature"
         ,glue={"steps"}
 )
-public class TipoDeModuloRunner {
+public class ModuloRunner {
     @AfterClass
     public static void afterTestRun(){
         AutomationContext.getInstance(Web.class).dispose();

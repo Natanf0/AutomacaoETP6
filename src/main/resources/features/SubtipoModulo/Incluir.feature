@@ -8,11 +8,11 @@ Funcionalidade: Incluir Subtipo de Módulo
 
   Cenario: Incluir Subipo de Módulo com dados válidos
     E que eu acesse o sistema com o perfil 'Proprietario'
-    E que eu selecione a opcao 'Subtipo de Módulo' no menu Configuração
+    E que eu selecione a opcao Subtipo de Módulo no menu Configuração
     E que eu clique no botão Incluir Subtipo de Módulo
     E que eu selecione o campo Tipo de Módulo com 'Manobra'
-    E que eu preencha o campo Sigla do Subtipo de Módulo com 'DDAA'
-    E que eu preencha o campo Nome do Subtipo de Módulo com 'Nome novo'
+    E que eu preencha o campo Sigla do Subtipo de Módulo com 'DDNB'
+    E que eu preencha o campo Nome do Subtipo de Módulo com 'Nome novo011'
     Quando eu clicar no botão Salvar
     Então o sistema retorna a página anterior e exibe a mensagem de sucessso 'Subtipo de Módulo salvo com sucesso!'
 

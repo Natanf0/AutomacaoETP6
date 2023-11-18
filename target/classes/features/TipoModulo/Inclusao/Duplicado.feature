@@ -8,7 +8,7 @@ Funcionalidade: Incluir Tipo de Módulo duplicado
 
   Cenario: Incluir Tipo de Módulo com dado duplicado
     E que eu acesse o sistema com o perfil 'Proprietario'
-    E que eu selecione a opcao 'Tipo de Módulo' no menu Configuração
+    E que eu selecione a opcao Tipo de Módulo no menu Configuração
     E que eu clique no botão Incluir Tipo de Módulo
     E que eu preencha o campo Tipo de Módulo com 'Duplicado01111'
     E eu clicar no botão Salvar
